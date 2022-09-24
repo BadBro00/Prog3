@@ -2,6 +2,7 @@
 
 ---------------------
 Installazione java LINUX:
+#
 sudo apt install default-jdk
 ---------------------
 
