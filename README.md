@@ -1,7 +1,7 @@
 # Prog3
 
 ---------------------
-#Installazione java LINUX:
+Installazione java LINUX:
 sudo apt install default-jdk
 ---------------------
 
