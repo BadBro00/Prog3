@@ -209,4 +209,19 @@ E' possibile implementare uno 'stub' per un'interfaccia che specifica una collez
 Lo 'stub', e' una classe che implementa i metodi vuoti.
 E' possibile l'ereditarieta' dallo stub, tramite overriding dei metodi importanti all'applicazione
 [Classe WindowsAdapter di java.awt.event]
+*/
+public interface interfaceVideo{
+  static String format = "xyz";
+ 
+  public void run();
+  public void pause();
+  public void stop();
+  public void restart();
+}
 
+public abstract class Video implements interfaceVideo{
+  @Override
+  public void run(){
+    //Codice
+  }
+}
